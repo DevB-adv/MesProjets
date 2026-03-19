@@ -1,0 +1,54 @@
+
+projet réalisé par cheikh becaye gaye 
+
+Ce projet consiste en 2 jeu , un de nim et un de tic tac toe qu'il est possible de jouer en 1v1 avec 2 joueurs humains ou 2 étant robots ou seulement un robot.
+
+
+
+**commande de compilation des projets :
+
+-nim:   javac -d build -cp lib/gamestests.jar src/games/nim/*.java 
+
+-tictactoe / tictactoewithhints :  javac -d build -cp lib/gamestests.jar src/games/tictactoe/*.java 
+
+-factoredgames , genericgames , players , plays: javac -d build -cp lib/gamestests.jar src/games/factoredgames/*.java  src/games/genericgames/*.java  src/games/plays/*.java  src/games/players/*.java 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**commande de lancement des tests :
+
+-nim:  java -cp build: lib/gamestests.jar games.nim.main
+
+-tictactoe / tictactoewithhints : java -cp build:lib/gamestests.jar games.tictactoe.main
+
+-factoredgames:  java -cp build:lib/gamestests.jar games.factoredgames.main
+
+-genericgames: java -cp build:lib/gamestests.jar games.genericgames.main
+
+-player: java -cp build:lib/gamestests.jar games.players.main
+
+-plays: java -cp build:lib/gamestests.jar games.plays.main
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+**commande de lancement des projets :
+
+-nim: java -cp build:lib/gamestests.jar games.nim.Execution
+
+-tictactoe: java -cp build:lib/gamestests.jar games.tictactoe.Execution
+
+-tictactoewithhints:  java -cp build:lib/gamestests.jar games.tictactoe.ExecutionBis
+
+-factored.nim: java -cp build:lib/gamestests.jar games.factoredgames.ExecutionNim
+
+-factored.tictactoe: java -cp build:lib/gamestests.jar games.factoredgames.Execution
+
+-factored.tictactoewithhints: java -cp build:lib/gamestests.jar games.factoredgames.ExecutionBis
+
+-genericgames: java -cp build:lib/gamestests.jar games.genericgames.ExecuteDef
+
